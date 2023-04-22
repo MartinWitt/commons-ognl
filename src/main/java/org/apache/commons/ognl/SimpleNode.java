@@ -125,7 +125,7 @@ public abstract class SimpleNode
 
     public String toString( String prefix )
     {
-        return prefix + OgnlParserTreeConstants.jjtNodeName[id] + " " + toString();
+        return prefix + OgnlParserTreeConstants.jjtNodeName[id] + " " + ;
     }
 
     public String toGetSourceString( OgnlContext context, Object target )
