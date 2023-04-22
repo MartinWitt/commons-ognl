@@ -247,7 +247,7 @@ public class ASTMethod
 
         if ( method.getReturnType() == void.class )
         {
-            coreExpression = sourceStringBuilder.toString() + ";";
+            coreExpression = sourceStringBuilder + ";";
             lastExpression = "null";
         }
 
@@ -409,3 +409,4 @@ public class ASTMethod
         return visitor.visit( this, data );
     }
 }
+
